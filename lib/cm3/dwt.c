@@ -100,6 +100,7 @@ uint32_t dwt_read_cycle_counter(void)
 		return 0;		/* not supported or enabled */
 	}
 #endif /* defined(__ARM_ARCH_7M__) || defined(__ARM_ARCH_7EM__) */
+  return 0;
 }
 
 /**@}*/

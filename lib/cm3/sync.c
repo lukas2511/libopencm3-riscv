@@ -22,7 +22,7 @@
 /* DMB is supported on CM0 */
 void __dmb()
 {
-	__asm__ volatile ("dmb");
+	__asm__ volatile ("fence rw,rw");
 }
 
 /* Those are defined only on CM3 or CM4 */

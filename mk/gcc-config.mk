@@ -23,7 +23,7 @@
 # please read mk/README for specification how to use this file in your project
 
 
-PREFIX		?= arm-none-eabi
+PREFIX		?= riscv-sifive-elf
 #PREFIX		?= arm-elf
 
 CC		:= $(PREFIX)-gcc
